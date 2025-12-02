@@ -3,9 +3,10 @@ node_modules/
 
 # build output
 dist/
+release/
 
 # misc
 .env
 *.log
 .DS_Store
-pnpm-lock.yaml
+.zip
