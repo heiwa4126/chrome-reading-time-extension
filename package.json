@@ -1,0 +1,23 @@
+{
+	"name": "chrome-reading-time-extension",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsup",
+		"format": "biome format .",
+		"lint": "biome lint .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.24.0",
+	"devDependencies": {
+		"@types/chrome": "^0.1.32",
+		"biome": "^0.3.3",
+		"esbuild": "^0.27.0",
+		"tsup": "^8.5.1",
+		"typescript": "^5.9.3"
+	}
+}

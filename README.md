@@ -1,0 +1,44 @@
+# Chrome Reading Time Extension (TypeScript)
+
+## ビルド手順
+
+1. 依存インストール
+
+```sh
+pnpm install
+```
+
+2. ビルド
+
+```sh
+pnpm build
+```
+
+- `dist/` 配下に `content.js` と `popup.js` が生成されます。
+
+## Chrome 拡張機能 デベロッパーモードでの利用方法
+
+### インストール
+
+1. Chrome で `chrome://extensions/` を開く
+2. 右上の「デベロッパーモード」を ON にする
+3. 「パッケージ化されていない拡張機能を読み込む」をクリック
+4. このリポジトリのルートディレクトリ（`manifest.json`がある場所）を選択
+
+### 更新
+
+1. コードを修正し、再度 `pnpm build` を実行
+2. `chrome://extensions/` で「更新」ボタンを押す
+
+### 削除
+
+1. `chrome://extensions/` で該当拡張機能の「削除」ボタンを押す
+
+---
+
+## 構成
+
+- `src/` ... TypeScript ソース
+- `public/` ... popup.html, popup.css, アイコン等
+- `dist/` ... ビルド成果物（自動生成）
+- `manifest.json` ... Chrome 拡張マニフェスト
