@@ -1,5 +1,7 @@
 # chrome-reading-time-extension
 
+Chrome の拡張機能の練習。
+
 [すべてのページでスクリプトを実行する | Get started | Chrome for Developers](https://developer.chrome.com/docs/extensions/get-started/tutorial/scripts-on-every-tab?hl=ja) を TypeScript で書いたもの
 
 ## ビルド手順
