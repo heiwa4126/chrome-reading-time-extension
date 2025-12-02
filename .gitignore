@@ -9,4 +9,4 @@ release/
 .env
 *.log
 .DS_Store
-.zip
+*.zip

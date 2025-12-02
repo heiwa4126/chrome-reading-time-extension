@@ -12,7 +12,19 @@ pnpm install
 pnpm build
 ```
 
-`dist/` 配下に `content.js` と `popup.js` が生成されます。
+`dist/` 配下に `content.global.js` と `popup.global.js` が生成されます。
+
+## リリース用 ZIP の作成
+
+バージョン付きのリリース ZIP をプロジェクトルートに作成できます。
+
+```sh
+pnpm run release:zip
+# 例: chrome-reading-time-extension-1.0.0.zip が生成されます
+```
+
+ZIP 内には chrome-reading-time-extension ディレクトリ配下に全ファイルがまとまっています。
+ZIP のポストフィックスのバージョン番号は `manifest.json` から取得します。
 
 ## Chrome 拡張機能 デベロッパーモードでの利用方法
 
