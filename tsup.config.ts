@@ -5,7 +5,7 @@ export default defineConfig({
 	outDir: "dist",
 	format: ["iife"],
 	target: "chrome110",
-	minify: true,
+	minify: false,
 	sourcemap: false,
 	clean: true,
 	dts: false,

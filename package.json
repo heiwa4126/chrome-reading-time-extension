@@ -8,16 +8,16 @@
 		"format": "biome format .",
 		"lint": "biome lint .",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"release:zip": "sh release-zip.sh"
+		"release": "sh release-zip.sh"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"packageManager": "pnpm@10.24.0",
 	"devDependencies": {
+		"@biomejs/biome": "^2.3.8",
 		"@types/chrome": "^0.1.32",
-		"biome": "^0.3.3",
-		"esbuild": "^0.27.0",
+		"esbuild": "^0.27.1",
 		"fx": "^39.2.0",
 		"tsup": "^8.5.1",
 		"typescript": "^5.9.3"

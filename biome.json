@@ -1,6 +1,0 @@
-{
-	"extends": ["biome:recommended"],
-	"rules": {
-		"suspicious/noExplicitAny": "off"
-	}
-}
